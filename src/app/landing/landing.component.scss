@@ -1,0 +1,96 @@
+@import"../../variable.scss";
+
+/*Landing Banner CSS*/
+.landing-tutor{background: url(../../assets/landing-banner.jpg) no-repeat top center/cover; padding: 183px 0 140px; position: relative;display: flex}
+.bannerTxtCont h2{color: $white; font-size: 40px; font-weight: bold; position: relative;font-family: $roboto-Bold;}
+.bannerTxtCont h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #ffffff; bottom: -15px; left: 47%}
+.bannerTxtCont h5{font-size: 22px; color: $white; margin: 40px 0 30px; font-family: $roboto-light; font-weight: bold}
+.bannerTxtCont button{font-family: $roboto-light; font-weight: bold}
+
+.landing-tutor::before {content: "";position: absolute;width: 100%;height: 100%;background: rgba(0,0,0,.2);top: 0;left: 0}
+.landing-tutor::after {content: "";position: absolute;width: 100%;height: 100%;background: url(../../assets/BG_V1.png) repeat left top;top: 0;left: 0}
+.landing-tutor > * {z-index: 100;}
+/*CSS for Header End*/ 
+
+
+/*Three block*/
+.threeBlock {padding-top: 90px}
+.threeBlock span{font-size: 60px}
+.threeBlock .heading{font-size: 29px; font-weight: bold}
+.threeBlock p{margin-top: 17px}
+/*Three block END*/
+
+
+
+/*Landing Page register Button*/
+.tutorBigBTN{text-align: center; margin: 65px 0}
+.tutorBigBTN button{background: $bright-orange; width: 325px; padding: 15px 0; text-align: center; border-radius: 4px; color: $white; font-family: $roboto-Bold; font-size: 20px; }
+/*Landing Page register Button END*/
+
+
+
+
+
+/*FAQ CSS*/
+.faq-container{padding: 60px 40px 0; margin-top: 40px}
+.faq-container h2{margin-bottom: 90px; font-size: $fontforSubHeading; font-family: $roboto-Bold; position: relative; text-align: center}
+.faq-container h2:after{content: ""; position: absolute; width: 58px; height: 2px; background: #000; bottom: -15px; left: 47%}
+.faq-container .accordion .card{border: 1px solid #dddddd; border-radius: 0px; margin-bottom: 20px; padding: 20px}
+.faq-container .accordion .card .btn-link{text-align: left; background: transparent; border: none; cursor: pointer; color: $black; font-size: 16px; text-decoration: none; font-weight: bold; padding-right: 20px; position: relative;    padding-left: 20px}
+.faq-container .accordion .card .btn-link:after {font-family: 'FontAwesome';content: "\f107";float: right;font-size: 22px;color: $bright-orange;position: absolute;top: -2px;right: 0}
+.faq-container .accordion .card .btn-link.collapsed:after {content: "\f105"}
+
+.faq-container .accordion .card .btn-link span{position: absolute;left: 0}
+.faq-container .accordion .card .card-body {padding: 15px 0 15px 20px}
+/*FAQ CSS END*/
+
+@media(max-width:767px){
+.bannerTxtCont h2{font-size: 24px; color: $bright-orange; padding-bottom: 0}
+.bannerTxtCont h5{font-size: 16px; color: $black}
+/*Banner font-size*/
+/*.landing-tutor{padding: 100px 0 0;background-size: 100% 147px;}*/
+.landing-tutor {
+    padding: 100px 0 0;
+    background-size: 100% 100%;
+    max-height: 150px;
+}
+.bannerTxtCont{padding-top: 70px;clear: both}
+.bannerTxtCont h2:after{background:$bright-orange}
+
+/**Three Section*/
+.threeBlock .heading{font-size: 22px}
+.threeBlock span { font-size: 45px}
+.p-4 {padding: 1rem!important;}
+.threeBlock {padding-top:220px}
+.threeBlock .d-block{width: 100%}
+.threeBlock .heading{font-size: 22px}
+
+/*.carousel*/
+
+section.carousel-bg .carousel-container .owl-nav .owl-prev,
+section.carousel-bg .carousel-container .owl-nav .owl-next{display: none}
+.carousel-container{padding: 39px 15px}
+.testimonials-container{width: 100%}
+.teacher-testimonials{padding: 47px 0}
+.teacher-testimonials .owl-theme .owl-nav.disabled + .owl-dots{margin-top:10px}
+.tutorBigBTN{margin: 17px 0 40px 0}
+.faq-container{padding: 0}
+.tutorBigBTN button,
+.tutorBigBTN button{width: 274px;font-size: 16px}
+.carousel-container h4{font-size: 22px}
+.carousel-container p{font-size: 16px}
+.testimonialTXT p{text-align: center}
+.faq-container .accordion .card .btn-link{font-size: 14px;position: relative}
+.teacher-testimonials .owl-theme .owl-nav.disabled + .owl-dots{margin-top: 30px}
+.teacher-testimonials h2{margin-bottom: 53px}
+.faq-container h2{margin-bottom: 53px}
+.testimonialTXT{margin-top: 16px}
+.carousel-container .owl-theme .owl-dots{margin-top: 30px}
+.bannerTxtCont h2:after,
+.carousel-container h2:after,
+.teacher-testimonials h2:after,
+.faq-container h2:after {left: 50%;margin-left: -32px}
+.carousel-container h2{margin-bottom: 60px}
+.carousel-img {text-align: center;padding-right: 0}
+
+}

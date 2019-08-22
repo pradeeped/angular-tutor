@@ -1,0 +1,26 @@
+@import"../../../../variable.scss";
+/* varify mobile number pop up start */
+.custom-modalwidth{max-width: 766px}
+.custom-modalwidth .modal-header .close {padding: 10px 20px}
+/* left side modal */
+.border-none{border: none}
+.varify-mobilenumber-heading{font-family: $roboto-Bold;font-size: $fontforSubHeading}
+.otphassent-text{color:$black;opacity: 0.35;font-size: $font-forContentSub;padding-top: 6px;padding-bottom: 23px}
+.custm-toppaddingmargin{margin: $zero;padding: 0;}
+.input-m-top{margin-top: 17px}
+.varifymobile-centercontainer{padding: 0 20px}
+.customwidth-varifymobileform{width: 82%}
+.varify-modalleftsection{width: 60%;padding: 60px 1rem}
+.customwidth-modalsubmit{width: 100%}
+.label-widthfull{width: 100%}
+.modal-img-close{opacity: 1; margin-right: 22px; margin-top: 12px;position: absolute;right: 0;top: 0}
+.font-weight-normal{font-weight: $normalWeight;font-size: $fontSmall}
+.varifymodaltext-mb{margin-bottom: 27px}
+.otptext{font-size: $fontSmall}
+label.registration-label.label-widthfull a.link-cls.font-weight-normal {color: $blue;text-decoration: underline;}
+span.text-right.otptext a.link-cls.font-weight-normal {color: $blue;text-decoration: underline;}
+/* left side modal */
+
+/* modal right section */
+.varify-modalrightsection{ width: 40%;background: #f7f7f7; padding: 60px 1rem}
+/* modal right section end */

@@ -1,0 +1,99 @@
+@import"../../variable.scss";
+
+/*CSS for Header component*/
+/*CSS For Full Width Navigation*/
+
+.gyanum-logo{font-size: 33px;font-weight: normal; font-family:$roboto-Bold;font-style: normal;font-stretch: normal;line-height: normal;letter-spacing: normal;color: $white;padding: 0 0 10px;}
+.menu-large {position: static !important}
+.navbar-login .dropdown-menu{min-width: 100%; height: 100vh;border-radius: 0;border-left: 0;border-right: 0;top: 95%}
+.sticky {background-color: #fff; transition: all .6s}
+.stickybg {background-color: #fff; transition: all .6s}
+.sticky .gyanum-logo, .stickybg .gyanum-logo{color: $black;transition: all .6s}
+.sticky .navbar-login .dropdown-toggle.nav-link, .stickybg .navbar-login .dropdown-toggle.nav-link{color: $black;transition: all .6s}
+.dropdown-toggle::after{display: none}
+.navbar-login .dropdown-toggle.nav-link i{vertical-align: middle;width: 16px !important;display: inline-block;}
+.navbar-login .dropdown-toggle.nav-link i.iconG-close{font-size: 12px}
+.navbar-login ul li{margin-left: 20px; font-weight: normal; font-family:$roboto-light;}
+.navbar-login ul li a{font-weight: normal; font-family:$roboto-light}
+.btnSamewth{width: 115px; padding-left: 0; padding-right: 0}
+.menu_text{padding: 0 5px}
+.dropright:hover>.dropdown-menu {display: block;transition: all .6s}
+.dropright>.dropdown-toggle:active {/*Without this, clicking will make it sticky*/ pointer-events: none}
+.dropright{padding-right: 0}
+.dropright .dropdown-menu{left: 100%;top: 10px;min-width: 55%;border-top: 0; background: transparent}
+.dropMenu .dropdown-menu a{color: $black}
+.dropMenu li{margin-left: 0 !important}
+.dropMenu li a{color: $black;  padding: 15px 0 15px 0; line-height: 24px; font-size: 30px; color: #b6b6b6;transition: all .6s; display: block;  transition: all .5s}
+.dropMenu li a:hover{color: #ff5e00; padding-left: 25px; font-weight: bold; background-color: transparent}
+.dropMenu li a::before{content: ""; position: absolute; width: 0px; height: 3px; left: 0; top: 25px; background: #ff5e00; transition: all .5s}
+.dropMenu li a:hover::before, .dropMenu li.active a::before{width: 20px;}
+.dropMenu li ul.dropdown-menu li a{color: $black; padding-left: 25px; padding-top: 5px; padding-bottom: 0; display: block; text-transform: uppercase; font-size: 16px; font-weight: normal}
+.dropMenu li ul.dropdown-menu li a:hover{font-weight: normal;color: #ff5e00}
+.dropMenu li.active a{color: #ff5e00; padding-left: 25px; font-weight: bold; background-color: transparent}
+.dropMenu li ul.dropdown-menu li a::before{display: none}
+.dropMenu .dropdown-toggle::after{display: none}
+.navbar-expand-md .navbar-nav .dropdown-menu{padding-top: 0}
+.dropMenu {height:calc(100vh - 160px);border-right: 1px solid #e4e4e4;padding-left: 0;padding-top: 20px}
+.blogSec{height: calc(100vh - 160px);border-left: 1px solid #e4e4e4;padding-top: 20px}
+.blogSec h4{margin-bottom: 15px}
+.blogSec .blogBox{background: #d8d8d8; border: 1px solid #979797; width: 100%; height: 200px} 
+.navfooter{border-top: 1px solid #e4e4e4; background: $white; padding-top: 15px; min-height: 160px}
+.navfooter ul li{display: inline-block; margin: 0 0 0 0; border-right: 1px solid #000; padding: 0 12px 3px 8px;line-height: 12px;}
+.navfooter ul li a{font-size: 16px; color: $black;}
+.navfooter ul li:first-child{padding-left: 0;}
+.navfooter ul li:last-child{border-right: 0;}
+.navfooter .navsocialIcon{display: block}
+.navfooter .navsocialS{max-width: inherit}
+.navfooter .navsocialIcon li{border: 0; margin: 5px; padding: 0}
+.navfooter .navsocialIcon li a{border: 0; background: $black; width: 30px; height: 30px; border-radius: 50%; line-height: 30px; display: inline-block;color: $white; text-align: center; font-size: 15px}
+
+
+
+@media(max-width:767px){
+
+.gyanum-logo {font-size: 27px; padding-bottom: 0}
+.navbar-login .dropdown-menu{height: auto}
+.custom_responsivecls button.btn.btnSignup, .custom_responsivecls button.btn.cta-primary{padding: 6px 20px}
+.landing-tutor{padding: 96px 0 96px}
+.btnSignup{display: none}
+.stickybg .btnSignup{display: inline-block}
+.stickybg .btnSignup{margin-right: 12px}
+.stickybg .gyanum-logo{display: none}
+.stickybg .navbar-login.justify-content-end{width:100%;text-align:right}
+.navbar-login ul li{margin-left: 0px}
+a.dropdown-toggle.nav-link span.menu_text{display: none}
+.custom_responsivecls .dropdown-toggle.nav-link{text-align: right;padding: 4px 0 0;cursor: pointer}
+.custom_responsivecls{display: inline-flex;flex-direction: inherit}
+li.dropdown.menu-large.nav-item{margin-left: 15px}
+.tutorBigBTN button{width: 100%}
+.navbar-login .dropdown-menu{position: absolute}
+.dropMenu{height: auto;padding: 0;border: none}
+.blogSec{display:none}
+.dropMenu .dropdown-menu{position: static;height: auto}
+.dropMenu li.active a{padding-left: 10px; font-weight: bold;}
+
+ul.dropMenu li{display: block}
+.dropMenu li a{line-height: 20px;font-size: 20px;padding: 10px 0 10px 10px}
+.dropMenu li a:hover{padding-left: 10px}
+.dropMenu li a::before{display: none}
+.dropMenu li ul li a{font-size: 16px; padding-left: 20px !important}
+
+
+.fixed-top{padding: 15px;box-shadow: rgba(0, 0, 0, 0.13) 0 2px 8px;} 
+.navbar-login .dropdown-toggle.nav-link i {vertical-align: middle;width: 24px !important;display: inline-block;font-size: 24px}
+.navbar-login .dropdown-toggle.nav-link i.iconG-close {font-size: 16px;text-align: center;    padding-top: 5px}   
+.navbar-login{line-height: 11px}
+.cta-primary{margin-right: 10px}
+
+/* mobile menu css */
+.navfooter ul li{display: block;padding: 0; border-right: none}
+.navfooter p{display: none}
+.navfooter ul li a{line-height: 28px;font-size: 16px;}
+.navfooter .col-md-10{ padding: 20px 10px; border-top: #ccc solid 1px; border-bottom: #ccc solid 1px;}
+.col-md-2.navsocialS.float-right {padding: 20px 14px;}
+.col-md-2.navsocialS.float-right b{text-transform: uppercase; padding-bottom: 12px;}
+.navfooter .navsocialIcon { display: flex; margin-top: 12px}
+.navfooter .navsocialIcon li a {width: 45px;height: 45px;border-radius: 50%;line-height: 45px;font-size: 22px;}
+.navfooter{border-top: 0;padding-top: 0}
+/* mobile menu css */
+}

@@ -1,0 +1,18 @@
+
+@import"../../../variable.scss";
+/* right heading and form section start */
+.rightsection-form{padding-left: 37%; margin-top: 100px}
+.registeras-tutor{font-family: $roboto-Bold;font-size: $fontforSubHeading;position: relative;margin-bottom: 40px}
+.registeras-tutor:after{content: "";position: absolute;width: 80px;max-width: 80px;height: 2px;background: $black;bottom: -12px;left: 0}
+.register-form-width{width: 75%}
+.registration-label{font-weight: bold;font-size: $font-forContent;margin-bottom: .9rem}
+.register-formgroup-m{margin-bottom:30px}
+.registernow-btn{padding: 12px 60px;margin-bottom: 26px}
+.registerbtn-main{text-align: left}
+.alreadylogin-text{font-size: 16px;letter-spacing: 0;color: $black;margin-bottom: 40px}
+.alreadylogin-text .link-cls, .agree-termspolicy .link-cls{color: $blue;}
+.alreadylogin-text .link-cls:hover, .agree-termspolicy .link-cls:hover{color: $dark-sky-blue;}
+.agree-termspolicy{color: $grey;font-size: $fontSmall;}
+.tutorImg {width: 300px;margin: 10px auto 0}
+.tutorImg img {width: 100%;display: block}
+/* right heading and form section start */
